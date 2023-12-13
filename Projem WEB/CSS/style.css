@@ -1,0 +1,301 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+#menu{
+    background-color:#f8f9fa;
+    height: 80px;
+    padding: 0 20px;
+}
+#logo{
+    font-size: 25px;
+    line-height: 80px;
+    color:#445c6e;
+    float: left;
+    font-weight: 700;
+
+}
+nav{
+    float:right;
+    line-height: 80px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #445c6e;
+    font-weight: 600;
+
+}
+nav a:hover{
+    border-bottom: 2px solid #445c6e;
+    
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #445c6e;
+}
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+#banner{
+    background-color:darkgrey;
+    height: 600px;
+    background-image: url("../Resimler/banneruc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#black{
+    height: 600px;
+    background-color: #445c6e;
+    opacity: 0.5;
+}
+#icerik{
+    position: absolute;
+    top:60%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 18px;
+}
+#hakkimizda {
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+h3{
+   font-size: 55px;
+    color :#445c6e;
+    font-weight: 600;
+    
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+#sol{
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size: 30px;
+    width: 400px;
+    color: #445c6e;
+}
+#h5sol{
+    line-height: 1.6;
+    font-size: 25px;
+    font-weight: 600;
+}
+#h5sol, #sag{
+    margin:0;
+    padding: 0;
+    margin-top: 20px;
+}span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 40px;
+    color:#445c6e;
+    font-weight: 600;
+    float: left;
+}
+#sag{
+    float: right;
+    width: 750px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+    height: 300px;
+}
+.mt100{
+    margin-top: 40px;
+}
+#pson{
+    color:#999999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 20px;
+    font-weight: 100;
+}
+#galeri{
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+.card{
+    width: 320px;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding:0;
+    display: inline-block;
+}
+.card :hover{
+    border:2px solid gray;
+}
+#egitim{
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+    background-color:beige;
+}
+#h1{
+
+        font-size: 15px;
+        color:crimson;
+    
+}
+#h1iki{
+
+    font-size: 15px;
+    color:forestgreen;
+
+}#h1uc{
+
+    font-size: 15px;
+    color:goldenrod;
+
+}
+#ekip{
+    padding: 50px;
+    height: 800px;
+    text-align: center;
+}
+.sutun-sol-sag{
+    width: 385px;
+    float:left;
+    padding: 50px;
+}
+.sekil{
+    border-radius: 50%;
+}
+.ekipisim{
+    color:#445c6e;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.ekipp{
+    color:cadetblue;
+
+}
+.social{
+    color:#445c6e;
+    border: 1px solid cadetblue;
+    padding: 10px;
+    width: 50px;
+    border-radius: 20px;
+    margin: 5px 8px;
+}
+.social:hover{
+    background-color: cadetblue;
+}
+#ekip{
+    background-color: rgb(250, 250, 250);
+}
+#iletisim{
+    background: url("../Resimler/denee.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+#h3iletisim{
+    color: white;
+}
+#iletisimopak{
+background: rgba(255, 255, 255, 0.7);
+padding: 30px 20px;
+border-radius: 5px;
+margin-bottom: 50px;
+height: 550px;
+}
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+     line-height: 1.5;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border:2px solid #445c6e
+}
+textarea{
+    font-family: Arial;
+}
+input[type="submit"] {
+    cursor:pointer;
+    background-color:#416683 ;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#adres{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+    color: white; 
+}
+#adresbaslik{
+    font-size: 30px;
+}
+.adresp{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+
+}
+#copyright{
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+#ikoni{
+    color: white;
+    font-size: 20px;
+}
+#up{
+    color:white;
+    border: 1px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 7px 7px;
+    margin-top: 20px;
+
+}
+
